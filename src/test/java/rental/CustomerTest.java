@@ -19,7 +19,7 @@ public class CustomerTest {
         rentals.addRental(new Rental(children,2));
         rentals.addRental(new Rental(regular,1));
 
-        Customer customer = new Customer("増田",rentals) ;
+        Customer customer = new Customer("田中",rentals) ;
 
         Statement statement = new Statement(customer);
 
